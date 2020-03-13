@@ -1,0 +1,377 @@
+/* Ecran Mx wide */
+/* style navbar */
+body {
+  font-family: 'Arvo';
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+
+
+#logonavbar{
+    background-color: #1d1d1d;
+}
+
+
+.navbar{
+  background-color: #1d1d1d;
+  height: 50px;
+  font-size: 20px;
+  line-height: 20px;
+  color: #a3a5a5
+  padding: 20px;
+  padding-top: 30px;
+  margin-left: 30px;
+}
+
+
+/* img {
+  display: flex;
+  justify-content: center;
+  padding-top: 0px;
+} */
+
+
+.span{
+  font-style: bold;
+  color: red;
+}
+
+
+.button_who {
+font-size: 10px;
+float:right;
+margin-right: 30px;
+color: #7d8689;
+text-decoration: none;
+}
+
+
+.button_get {
+font-size: 10px;
+float:right;
+margin-right: 30px;
+color: #7d8689;
+text-decoration: none;
+}
+
+
+/* Style header */
+#home {
+  height: 600px;
+    background-image: url(../images/hero-image.jpg);
+    background-size: stretch;
+}
+
+
+#home p {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+h1 {
+  font-size: 60px;
+  font-weight: lighter;
+  margin: 0;
+  padding-top: 20px;
+  color: white;
+  text-align: center;
+}
+
+
+a.button_learn {
+  display:flex;
+  justify-content: center;
+  width: 300px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: auto;
+  background-color: red;
+  font-size: 36px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+
+.code {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+
+/* Style Who... */
+#who {
+  background-color: white;
+  height: 350px;
+}
+
+
+.academy {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+
+h2 {
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+  color: #ea575a;
+}
+
+
+h2 .span {
+  color: red;
+}
+
+
+hr {
+  width: 200px;
+  border-color: #ea575a;
+  display: flex;
+  justify-content: center;
+}
+
+
+a  {
+  text-decoration: none;
+  color:  #ea575a;
+}
+
+
+#who p {
+  text-align: center;
+  font-size: 18px;
+}
+
+
+/* Style Get... */
+#get-involved {
+  /* height: 550px; */
+  background-color: #f5f5f5;
+  padding-top: 30px;
+}
+
+
+.user i {
+  font-size: 60px;
+  color: white;
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  border-radius: 50%;
+  padding-top: 20px;
+  padding: 18px;
+  margin-left: 120px;
+
+}
+
+
+.user h3 {
+  font-size: 25px;
+  color: #ea575a;
+  text-align: center;
+}
+.user p{
+  margin-left: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.user a {
+  margin-left: 100px;
+}
+
+.user {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+
+.design_get {
+  display: flex;
+  justify-content: center;
+  color:  #f74a39;
+}
+
+
+
+
+
+.button_inv {
+  display: flex;
+  flex-direction: column;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+}
+
+
+a.button_inv  {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: auto;
+}
+
+
+.button_inv_start {
+  text-align: center;
+  width: 150px;
+  background-color: white;
+  border: solid 1px;
+  border-color: #cccccc;
+  border-radius: 2px;
+}
+
+
+.button_inv_join {
+  width: 150px;
+  background-color: white;
+  border: solid 1px;
+  border-color: #cccccc;
+  border-radius: 1px;
+}
+
+
+.button_inv_give {
+  width: 150px;
+  background-color: white;
+  border: solid 1px;
+  border-color: #cccccc;
+  border-radius: 1px;
+}
+
+
+/* Style Footer... */
+footer {
+  height: 230px;
+  background-color: #f74a39;
+}
+
+
+.footer_img {
+  margin-left: 100px;
+  display: flex;
+  padding-top: 170px;
+}
+
+
+/* Style Back to top */
+
+
+
+
+/* Media Query pti ecran */
+
+/* Ecran mobil Mx 980px */
+
+@media only screen and (max-device-width:767px){
+
+
+  #home {
+    height: 480px;
+      background-image: url(../images/hero-image.jpg);
+      background-size: stretch;
+  }
+
+
+  #home p {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+
+
+  .button_who {
+  visibility: hidden;
+  }
+
+
+  .button_get {
+  visibility: hidden;
+  }
+
+
+  h1 {
+    font-size: 24px;
+  }
+
+
+  a.button_learn {
+    font-size: 18px;
+    width: 25%;
+    height: 40px;
+    padding-top: 15px;
+    padding-bottom: auto;
+    text-align: center;
+  }
+
+
+  #who {
+    height: 450px;
+  }
+
+
+  #who p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+
+  h2 {
+    font-size: 30px;
+  }
+
+.user_ico {
+display: flex;
+flex-direction: column;
+padding-bottom: 30px;
+}
+
+.pencil_ico {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.money_ico {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 60px;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+}
+
+
+footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap
+}
+  .footer_img{
+    margin-left: 15px;
+
+  }
+
+}
